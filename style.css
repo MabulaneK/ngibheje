@@ -1,0 +1,342 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(/pictures/brg.png);
+}
+.span0{
+    color: rgba(255, 0, 0, 0.746);
+}
+
+.span1{
+    color: rgb(18, 128, 164);
+}
+
+.span2{
+    color: rgb(18, 128, 164);
+}
+.span3{
+    color: rgb(18, 128, 164);
+}
+
+a{
+    text-decoration: none;
+}
+.G1{
+    font-size: 25px;
+    color: red;
+    font-weight: 800;
+}
+.G2{
+    color: rgb(78, 241, 13);
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.G3{
+    color: rgb(241, 100, 100);
+    font-weight: 800px;
+}
+header{
+    top: 0;
+    position: fixed;
+    height: 50px ;
+    width: 100%;
+    padding: 5px 15px 5px 15px;
+    /*background-color: rgba(16, 208, 238, 0.674);*/
+    background-color: white;
+    z-index: 1;
+
+}
+
+header .links ul{
+    top :-25px;
+    float: right;
+    position: relative;
+   /* background: rgb(241, 237, 238);*/
+}
+
+header .links ul li{
+    background: rgba(255, 255, 255, 0.055);
+    display: inline;
+    margin: 20px;
+    padding: 7px;
+}
+
+header .links ul li a{
+    color:  rgb(19, 32, 12);
+    font-weight: 800;
+    text-decoration: none;
+    
+}
+header .links ul li a{
+    
+}
+
+.bunner{
+    top:0;
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    background: url(/pictures/bunner.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+
+.bunner .plain .welcome {
+    top: 45%;
+    left: 50%;
+    width: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 5rem  6rem; 
+    background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%); */
+    /* rgba(0,212,255,1) */
+    background: linear-gradient(to right, rgb(10, 20, 8) 10%, rgba(255, 255, 255, 0.032) 100%);
+    border-radius: 1px;
+    background-size: cover;
+    /* text-align: center;  */
+    color: white;
+   /* box-shadow: 0 15px 20px rgba(0,0,0,0.2); -----------------------Check this out*/
+    
+}
+.bunner .plain .welcome h2{
+    /*color: rgb(232, 46, 96);*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+}
+.bunner .plain .welcome h2,h3{
+    margin: .9rem;
+}
+
+.bunner .plain .welcome .btn{
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 1rem 5rem;
+    border-radius: 14px;
+    box-shadow: 0px 0px 1px 2px white;
+    background: rgb(226, 9, 150);
+}
+.bunner .plain .welcome .btn:hover{
+    background: transparent;
+    /* color: rgb(235, 13, 205); */
+    color: wheat;
+    border: 2px solid white;;
+}
+
+.welcome-logo{
+    text-align: center;
+}
+.bunner-abt{
+    top:0;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: block;
+    background: yellow;
+    background: url(/pictures/p1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bunner-abt .plain .welcome {
+    top: 90px;
+    left: 25px;
+    display: block;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    margin: 0 auto;
+    color: white;
+    background: rgba(12, 145, 193, 0.389);
+    background-size: cover;
+}
+.bunner-abt .plain .welcome p a{
+    color: white;
+    padding: 6px 11px;
+    border-radius: 3px;
+    background: rgba(59, 231, 6, 0.73);
+
+}
+
+
+.bunner-contact{
+    top:0;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: block;
+    background: yellow;
+    background: url(/pictures/p1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    zoom:-10%;
+
+}
+
+.bunner .plain{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 60, 0.433);
+}
+
+.bunner-contact .plain{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 60, 0.433);
+}
+
+.bunner-contact .plain{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 60, 0.433);
+    
+
+}
+.bunner-contact .cont{
+    top: 80px;
+    width: 350px;
+    padding: 25px;
+    position: relative;
+    margin:  auto;
+    background: rgba(2, 42, 51, 0.704);
+    box-sizing: border-box;
+    
+}
+.bunner-contact .cont h1{
+    color: white;
+    text-align: center;  
+}
+
+.content1{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    display: block;
+    background: rgba(254, 255, 255, 0.329);
+}
+.content1 .plain{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 99, 223, 0.433);
+}
+.content{
+    width: 350px;
+    padding: 20px;
+    color: white
+}
+.content p{
+    font-weight: 800;
+}
+
+.content2{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: block;
+    background:rgba(130, 130, 165, 0.671);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content3{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: block;
+    background: rgba(255, 0, 136, 0.12);
+    background: url(/pictures/p1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content3 p{
+    text-align: center;
+}
+.cholder{
+    width: 100%;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+    display: flex;
+    position: relative;
+    background: rgb(7, 57, 70);
+}
+.cholder .form{
+    justify-content: center;
+    padding: 10px;
+}
+.cholder .form label{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+/*-----------------Input */
+.cholder .form  input{
+    border: none;
+    border-radius: 2rem;
+    height: 22px;
+    padding: 1px 20px 1px 20px;
+}
+
+.infowrap{
+    width: 100%;
+    position: relative;
+    display: block;
+    background: url('/pictures/afr0.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.infowrap .info {
+    
+    width: 100%;
+    color: wheat;
+    background-color: rgba(30, 3, 55, 0.817);
+}
+.infowrap .info .information{
+    padding: 20px;
+    width: 400px;
+    color: wheat;
+    background-color: rgba(30, 3, 55, 0.817);
+}
+.infowrap .location{
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+}
+footer{
+    
+    bottom: 0;
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    background: white ;
+
+}
+footer p{
+    color: rgba(70, 29, 99, 0.732);
+    text-align: center;
+    font-size: small;
+    
+}
